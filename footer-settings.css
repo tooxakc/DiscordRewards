@@ -1,0 +1,20 @@
+/* Footer appearance. Loaded after giveaway.css.
+   Keep the demo disclosure readable when changing these values. */
+.giveaway-footer {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #fff;
+  opacity: 0.1;
+  max-width: 600px;
+  padding: 0 12px;
+  bottom: 12px;
+  text-align: center;
+}
+
+/* On small screens, keep the notice below the content without overlap. */
+@media (max-width: 650px), (max-height: 650px) {
+  .giveaway-footer {
+    bottom: auto;
+    margin: 20px auto 12px;
+  }
+}

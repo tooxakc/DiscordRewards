@@ -1,0 +1,10 @@
+/* Appearance of the label beside the claim button.
+   Keep this demo disclosure visible and readable. */
+.demo-claim-note {
+  font-family: "gg sans", sans-serif;
+  font-size: 0px;
+  line-height: 1.5;
+  color: #b6b6c0;
+  text-align: center;
+  margin: 8px 0 0;
+}
