@@ -1,0 +1,18 @@
+/* Adjust the label's vertical position, then save and refresh the page.
+   0px = current position; -4px = higher; 4px = lower.
+   The wording is kept in giveaway.js and is not changed here. */
+:root {
+  /* Font size: try 13px, 14px or 16px. Minimum displayed size is 12px. */
+  --demo-label-font-size: 12px;
+  --demo-label-offset-y: 0px;
+}
+
+.demo-claim-note {
+  font-family: "gg sans", sans-serif;
+  font-size: max(12px, var(--demo-label-font-size, 12px));
+  line-height: 0;
+  color: #b6b6c0;
+  text-align: center;
+  margin: 0px 0 0;
+  transform: translateY(var(--demo-label-offset-y));
+}
